@@ -9,7 +9,7 @@
     "purelib/base": "dev-master",
     "zendframework/zend-config": "2.3.*@dev",
     "zendframework/zend-json": "2.3.*@dev",
-    "symfony/yaml": "3.0.*@dev"
+    "symfony/yaml": "2.7.*@dev"
   },
   "autoload": {
     "psr-4": {"PureLib\\Service\\":""}
