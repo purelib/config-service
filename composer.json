@@ -1,0 +1,17 @@
+{
+    "name": "purelib/config-service",
+    "description": "config service",
+    "type": "library",
+    "homepage": "http://purelib.com",
+    "license": "Apache-2.0",
+    "require": {
+        "php": ">=5.4",
+        "purelib/base": "master-dev",
+        "zendframework/zend-config": "2.3.*@dev",
+        "zendframework/zend-json": "2.3.*@dev",
+        "symfony/yaml": "3.0.*@dev"
+    },
+    "autoload": {
+        "psr-4": {"PureLib\\Service\\":""}
+    }
+}
